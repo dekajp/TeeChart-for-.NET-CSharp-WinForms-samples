@@ -53,6 +53,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -62,6 +63,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="TeeChart">
+      <HintPath>C:\Program Files (x86)\Steema Software\Steema TeeChart for .NET 2016 4.1.2016.05120\net45\x86\TeeChart.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="frmAbout.cs">
@@ -143,6 +147,12 @@
     </Compile>
     <Compile Include="StandardSeries\PieAndDonut\DonutChart.Designer.cs">
       <DependentUpon>DonutChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardSeries\PieAndDonut\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardSeries\PieAndDonut\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="StandardSeries\PieAndDonut\MultiDonut.cs">
       <SubType>Form</SubType>
@@ -290,12 +300,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\TeeChartWhite190x44.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Sources\TeeChart\TeeChart45.csproj">
-      <Project>{1fa292fe-ba95-467b-976b-0eadcbf20528}</Project>
-      <Name>TeeChart45</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

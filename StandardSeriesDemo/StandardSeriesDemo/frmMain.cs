@@ -208,7 +208,8 @@ namespace StandardSeriesDemo
                         chart = new ScrollerChart();
                         break;
                     case "DonutChart":
-                        chart = new DonutChart();
+                        //chart = new DonutChart();
+                        chart = new Form1();
                         break;
                     case "MultiPies":
                         chart = new MultiPies();
