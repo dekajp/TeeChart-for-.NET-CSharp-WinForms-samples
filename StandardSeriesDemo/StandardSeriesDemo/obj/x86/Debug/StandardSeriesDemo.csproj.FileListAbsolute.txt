@@ -26,3 +26,5 @@ D:\temp\TeeChart-for-.NET-CSharp-WinForms-samples\StandardSeriesDemo\StandardSer
 D:\temp\TeeChart-for-.NET-CSharp-WinForms-samples\StandardSeriesDemo\StandardSeriesDemo\bin\Debug\TeeChart.xml
 D:\temp\TeeChart-for-.NET-CSharp-WinForms-samples\StandardSeriesDemo\StandardSeriesDemo\obj\x86\Debug\StandardSeriesDemo.exe
 D:\temp\TeeChart-for-.NET-CSharp-WinForms-samples\StandardSeriesDemo\StandardSeriesDemo\obj\x86\Debug\StandardSeriesDemo.pdb
+D:\temp\TeeChart-for-.NET-CSharp-WinForms-samples\StandardSeriesDemo\StandardSeriesDemo\obj\x86\Debug\StandardSeriesDemo.StandardSeries.Bars.TwoColumnData.resources
+D:\temp\TeeChart-for-.NET-CSharp-WinForms-samples\StandardSeriesDemo\StandardSeriesDemo\obj\x86\Debug\StandardSeriesDemo.exe.licenses

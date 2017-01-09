@@ -178,7 +178,8 @@ namespace StandardSeriesDemo
                         chart = new PopularLanguages();
                         break;
                     case "StackedBars":
-                        chart = new StackedBars();
+                        //chart = new StackedBars();
+                        chart = new StackedBars2();
                         break;
                     case "ServerStatus":
                         chart = new ServerStatus();
